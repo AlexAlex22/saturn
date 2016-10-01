@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title style="color: brown">{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
-    <body style="color: red">
+    <body style="color: green">
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
